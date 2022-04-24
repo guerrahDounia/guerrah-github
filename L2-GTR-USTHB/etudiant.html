@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 align="center">Saisie d'un étudiant</h3>
+    <form action="etudiantok.html" target="droite">
+        <p>
+            Matricule :
+            <label for="mat"></label>
+            <input name="matricule" type="text" id="matricule" size="15" maxlength="12"/>
+        </p>
+        <p>
+            Nom :
+            <label for="nom"></label>
+            <input name="nom" type="text" id="name" value=""/>
+        </p>
+        <p>
+            Prenom :
+            <label for="prenom"></label>
+            <input name="pnom" type="text" id="secondName" value="" size="18"/>
+        </p>
+        <p>
+            Sexe :
+            <input name="sexe" type="radio" id="homme"/> masculin
+            <input name="sexe" type="radio" id="femme"/> Féminin
+        </p>
+        <p>
+            Adresse :
+            <textarea name="adresse" id="adresse" cols="60" rows="5"></textarea>
+        </p>
+        <p>
+            Date naissance :
+            <label for="date"></label>
+            <input name="date" type="date" id="date"/>
+        </p>
+        <p>Code filière : 
+            <label for="code"></label>
+            <select name="code" id="code">
+              <option selected="selected">Filière</option>
+              <option>GTR</option>
+              <option>ISIL</option>
+              <option>ACAD</option>
+            </select>
+        </p>
+        <p>
+            Groupe :
+            <label for="group"></label>
+            <input name="group" type="number" id="group" />
+        </p>
+        <p>
+            Doublant :
+            <label for="redouble"></label>
+            <input name="redouble" type="checkbox" id="redouble" />
+        </p>
+
+        <p>
+            <input type="submit" name="envoi" id="envoi" value="Enregistrer" />
+            <input type="reset" name="init" id="init" value="Réinitialiser" />
+          </p>
+          </form>
+</body>
+</html>

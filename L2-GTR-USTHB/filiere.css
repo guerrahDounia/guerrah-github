@@ -1,0 +1,33 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    background:#e3e4e6;
+}
+.form{
+    max-width: 400px;
+	background: #FAFAFA;
+	padding: 20px;
+	margin: 40px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+    text-align: center;
+}
+
+/*.form input[type="text"]{
+    -webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}*/

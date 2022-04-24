@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="filiere.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="form">Saisie d'une filière</h3>
+    <form action="filiereok.html" target="droite">
+      <p>
+            Code filière :
+        <label for="code"></label>
+          <input name="code" type="text" id="code"/>
+        </p>
+        <p>
+            Nom filière :
+            <label for="nom"></label>
+            <input name="nom" type="text" id="name" value=""/>
+        </p>
+        <p>
+            Vocation:
+            <input name="voc" type="radio" id="acad"/> Académique
+            <input name="voc" type="radio" id="pro"/> Professionnelle
+        </p>
+      <p>
+            Nombre de sections :
+        <label for="nbr"></label>
+          <input name="nbr" type="number" id="nbr" max="8" min="0" value="0" />
+        </p>
+
+        <p>
+            <input type="submit" name="envoi" id="envoi" value="Enregistrer" />
+            <input type="reset" name="init" id="init" value="Réinitialiser" />
+          </p>
+      
+    </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 align="center">Saisie d'un module</h3>
+    <form action="moduleok.html" target="droite">
+      <p>
+            Code module :
+        <label for="code"></label>
+          <input name="code" type="text" id="code"/>
+        </p>
+        <p>
+            Nom module :
+            <label for="nom"></label>
+            <input name="nom" type="text" id="name" value=""/>
+        </p>
+        <p>
+            Unité d'enseignement :
+            <input name="voc" type="radio" id="fond"/> Fondamentale
+            <input name="voc" type="radio" id="tran"/> Transversale
+            <input name="voc" type="radio" id="meth"/> Méthodologique
+        </p>
+      <p>
+            Nombre de cours/semaine :
+        <label for="nbr"></label>
+          <input name="nbr" type="number" id="nbr" min="0" value="1" />
+        </p>
+      <p>
+            Coéfficient :
+        <label for="coef"></label>
+          <input name="coef" type="number" id="coef" max="5" min="1" value="1" />
+        </p>
+        <p>
+            Crédit :
+            <label for="cred"></label>
+            <input name="cred" type="number" id="cred" value="1" />
+        </p>
+        <p>
+            TD :
+            <label for="td"></label>
+            <input name="td" type="checkbox" id="td" />
+        </p>
+        <p>
+            TP :
+            <label for="tp"></label>
+            <input name="tp" type="checkbox" id="tp" />
+        </p>
+        <p>
+            <input type="submit" name="envoi" id="envoi" value="Enregistrer" />
+            <input type="reset" name="init" id="init" value="Réinitialiser" />
+        </p>
+      
+    </form>
+</body>
+</html>
